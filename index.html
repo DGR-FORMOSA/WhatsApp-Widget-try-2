@@ -1,0 +1,69 @@
+<!--DISEÑO DE WIDGET POPUP PARA DGR CON ICONO DE WHATSAPP-->
+
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+
+</head>
+
+<body>
+ 
+<link rel="stylesheet" href="whats.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="whats2.css">
+
+        <!-- este es el DIV PRINCIPAL DE TODO EL POP UP-->
+        <div class="nav-bottom">
+           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+           
+           
+           <div class="popup-whatsapp fadeIn">
+            <!-- ACA INICIA LAS PARTES SUPERIOR DEL POP UP-->   
+                <div class="content-whatsapp -top">
+                    <button type="button" class="closePopup">
+                       <i class="material-icons icon-font-color">close</i>
+                    </button> 
+                    <div> 
+                            <b> ¡HOLA! <br>NUESTROS HORARIOS DE ATENCIÓN <br>SON DE LUNES A VIERNES DE 07.45 A 12.45 HS.</b>
+                    </div>
+                    
+                    <div>
+                        <a href="https://bit.ly/__ANP1" style="text-decoration:none;" target="_blank"> <p> <img src="secretario.png" width="45"> <br><b>AGENTE DE ATENCION 1</b> </p></a>
+
+                        </div>
+                    <div>
+                        <a href="https://bit.ly/__ANP2" style="text-decoration:none" target="_blank"> <p>  <img src="secretaria.png" width="45">  <br><b>AGENTE DE ATENCION 2</b> </p></a>
+                        </div>
+                    
+                    <div>
+                        <a href="https://formosa.gob.ar/turnos" style="text-decoration:none" target="_blank"> <p>  <img src="calendario.png" width="45">  <br><b>TURNOS WEB</b> </p></a>
+                        </div>
+                    
+                   
+                </div>
+                
+            <!-- ESTA ES LA PARTE QUE HACE QUE SE ABRA SOLO-->    
+            <div class="content-whatsapp -bottom">
+                                                              
+                <button class="send-msPopup" id="send-btn" > </button>
+
+            </div>
+            <!--ACA CERRAMOS EL CAMPO DEL POPOUP-->    
+            </div>
+
+            <button type="button" id="whats-openPopup" class="whatsapp-button">
+                <div class="float" >
+                    <i class="fa fa-whatsapp my-float"></i>
+                </div>
+            </button>
+            
+            <!--clase creada para el circulo-->
+            <div class="circle-anime"></div>
+
+        </div>
+
+        <script  src="script2.js"></script>
+        
+        
+</body>

@@ -1,0 +1,33 @@
+/*configuracion css del ícono en su totalidad unicamente (base verde+efecto+icono)*/
+
+/*base del ícono*/
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom: 15px;
+    right: 15px;
+	background-color:#4cc370;
+	color:#FFF;
+	border-radius:50px;
+	text-align: center;
+    font-size:30px;
+	box-shadow: 4px 4px 3px #999;
+    z-index:100;
+}
+
+/*efectos al pasar el cursor*/
+
+.float:hover {
+	text-decoration: none;
+	color: rgb(0, 53, 27);
+	background-color:#ffffff;
+}
+
+/*icono de whatsapp original*/
+
+.my-float{
+	margin-top:16px;
+	
+}
